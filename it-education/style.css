@@ -1,0 +1,440 @@
+*{
+    margin: 0%;
+}
+
+.logo{
+    width:30%;
+    padding:30px;
+    height:100px;
+}
+img{
+        width: 30%;
+}
+ .header{
+    width:100%;
+        display:flex;
+        justify-content: space-between;
+    }
+    .nav{
+        margin:auto;
+        width:60%;
+    }
+
+.header .nav ul li{
+    list-style: none;
+    display:inline-flex;
+    padding: 20px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+}
+    .header ul button{
+        padding:10px 35px;
+        border-radius: 15px;
+        background-color: rgb(11,115, 183);
+        color:white;
+         border:1px solid transparent;\
+         font-size: 30px;
+        }
+        .header{
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.062);
+        }
+        .header i{
+            display: none;
+        }
+        
+        
+
+       @media only screen and (max-width:480px)
+        {
+        .header{
+            width:100%;
+        }
+        .logo{
+            width:30%;
+        }
+        .nav{
+width:60%;
+
+
+        }
+     .nav ul{
+         display:none;}
+         i{
+            width:100px;
+            display:flex;
+            display:inside;
+            padding: 20px;
+         }
+
+        .header i{
+            display:flex !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+            flex-direction:row-reverse;
+
+        
+        }
+        
+       }
+       @media only screen and (max-width:768px){
+        .header{
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            width: 100% !important;
+            box-sizing: border-box;
+       
+    }
+        .nav ul li, .btn{
+        padding: auto;
+            font-size: 15px !important;
+            margin-left: 10px !important;
+    flex-wrap: wrap-reverse !important;
+        
+            
+        }
+        .logo{
+            width: 20%;
+        }
+        .logo img {
+            width:100px;
+        }
+        .nav{
+            margin-left: 20px;
+            width:100% !important;
+            display: flex;
+            justify-content:space-evenly;}
+            .nav button, .nav .btn{
+                font-size: 10px !important;
+                padding: 7px;}
+                
+                   .nav ul li .btn{
+                        background-color:rgb(74, 74, 216);
+                        color:white;
+                        flex-direction: row-reverse;
+                        margin-left: 5px;
+                        white-space: nowrap;
+                    }
+                    .header{
+                        position: fixed important;
+                        z-index:9999 !important;
+                    }
+                    .menu .text h1{
+                        font-size: 45px;
+                    }
+                    .menu .text h2{
+                        font-size:40px;}
+                        .menu .text h3{
+                            font-size: 20px;
+                        }
+                        .menu .img1{
+                            width:250px;
+                        height: 150px;
+                        transition:1s;
+                        }
+                        .menu .img2{
+                            width:250px;
+                            height:150px;
+                        }
+                        .menu .img3{
+                            width:250px;
+                            height: 150px;
+                        }
+                        .menu .img5{
+                            position:absolute !important;
+                           right:30px !important;
+                           
+                           width:150px !important;
+                           height: auto;
+                           z-index: 1;
+                        
+                        }
+                        .menu .btn1{
+                            font-size: 10px;
+                            padding:10px;
+                        }
+                        .menu .btn2{
+                            font-size:10px ;
+                            padding:10px;
+                        }
+                        .container .pic1{
+                            width:300px;
+                            height: auto;
+                           
+                        }
+                        .container .pic2{
+                            width:300px;
+                            height:260px;
+                        }
+                        .container .pic3{
+                            width:300px;
+                            height: auto;}
+                            .gradiant{
+                                width:100%;
+                                height:150px;
+                                padding: auto;
+                            }
+                            .gradiant .text1 h1 {
+                                font-size: 15px;
+                            }
+                            .gradiant .text1 p{
+                                font-size: 10px;
+                            }
+                             .gradiant .text2 h1 {
+                                font-size: 15px;
+                            }
+                            .gradiant .text2 p{
+                                font-size: 10px;
+                            }
+                             .gradiant .text3 h1 {
+                                font-size: 15px;
+                            }
+                            .gradiant .text3 p{
+                                font-size: 10px;
+                            }
+                             .gradiant .text4 h1 {
+                                font-size: 15px;
+                            }
+                            .gradiant .text4 p{
+                                font-size: 10px;
+                            }
+                            
+                    
+                        }
+                       
+                    
+
+                    
+                    
+        
+
+       
+    
+        
+    /* section two */
+    
+    .text h1{
+        margin:20px auto;
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .img1{
+        width:40%;
+        position:absolute;
+        left:10%;
+
+    }
+    .img2{
+
+        width:40%;
+        position:absolute;
+        right:-15%;}
+
+    .img3{
+        width: 50%;
+        position:absolute;
+        left:50px auto;
+    }
+    .img3:hover{
+        transition: 2s;
+    }
+    .img4{
+        width:50%;
+    }
+        
+    
+    .text h2{
+        display: flex;
+        justify-content: center;
+        font-size: 70px;
+        color:rgb(61, 61, 159);
+
+    }
+    .text h3{
+        display:flex;
+        justify-content:space-around;
+        padding:10px;
+        color:rgba(0, 0, 0, 0.635);
+        
+    }
+    .text h4{
+        color: rgba(0, 0, 0, 0.628);
+    }
+    .btn1{
+        background-color: rgb(11, 115, 183);
+        padding: 10px 40px;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        font-size: 15px;
+    }
+    .btn2{
+        margin: 20px;
+        padding: 10px 30px;
+        border-radius: 20px;
+        border:1px solid black;
+        font-size: 15px;
+    }
+    .img5{
+        width:100%
+    }
+    .menu .img5{
+        width: 15%;
+        position:absolute;
+        right:250px;
+    }
+   
+    
+    .container{
+
+    
+        display: flex;
+       justify-content: space-between;
+       gap:20px;
+       align-items: center;
+       margin-top: 80px;
+    }
+
+.pic1, .pic2, .pic3{
+    width:33%;
+height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: beige;
+}
+.pic1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.pic3 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.pic2 iframe{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+@media only screen and (max-width:480px){
+    .menu .img1{
+        display:none;
+    }
+    .menu .img2{
+        display:none;}
+        .menu .img3{
+            display:none;
+        }
+        .menu .img5{
+            display:none;
+    }
+    .menu .text h1{
+        font-size: 40px;
+    }
+    .menu .text h2{
+        font-size:30px ;
+    }
+    .menu .text h3{
+        font-size: 15px;
+    }
+    .menu .btn1{
+        font-size: 10px;
+    }
+    .menu .btn2{
+        font-size: 10px;
+    }
+    .container{
+        display:flex;
+    }
+    .container, .pic1, .pic2, .pic3{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .container, .pic1, .pic2, .pic3{
+        height:300px;
+        width:300px;
+    }
+    .container, .pic1, .pic2, .pic3{
+        width:80%;
+        height: 80%;
+    }
+}
+
+    @media only screen and (max-width:480px){
+ .gradiant{
+
+        display:flex !important;
+        justify-content:flex-start !important;
+        align-items: flex-start !important;
+        flex-direction: row !important;
+        height:auto !important;
+        min-height: 150px !important;
+        width:100% !important;
+        gap:0 !important;
+        margin: 10px !important ;
+        text-align: center !important;
+        padding-left:0 !important;
+
+
+    }
+    
+    .gradiant, .text1 h1 p, .text2 h1 p, .text3 h1 p, .text4 h1 p{
+        font-size:5px !important;
+        font-weight: 200;
+        display:flex !important;
+        flex-direction: row !important;
+        justify-content:flex-start !important;
+        align-items:flex-start !important;
+        padding-left:5px !important ;
+        gap:0 !important;
+    
+    }
+}
+
+
+.gradiant{
+    height: 250px;
+    width: 100%;
+    background: #0c96cc;
+background: linear-gradient(90deg, rgba(12, 150, 204, 1) 1%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 75%);
+    margin-top: 40px;
+    color: white;
+    font-size: 35px;
+}
+.gradiant{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gradiant h1{
+    text-align: left;
+    padding:70px;
+    font: size 70px;;
+}
+.gradiant h1 p{
+    font-size: 17px;
+justify-content:space-evenly;
+ 
+
+}
+
+.gradiant .text2 h1{
+    font: size 70px ;color:white;
+}
+.content{
+    margin-top: 50px;
+    padding: auto;
+    
+}
+.content{
+    display:flex;
+}
+.content img{
+    width:200px;
+    height: 200px;
+    background-color:black;
+    
+}
